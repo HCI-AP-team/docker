@@ -1,0 +1,4 @@
+First find the download document , enter"docker  load  --input  student.tar"
+Then wait for a minute to download something 
+Enter "docker run -d -p 80:80  student:latest"
+The website will display on your localhost
