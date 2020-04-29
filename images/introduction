@@ -1,0 +1,5 @@
+Because the image is a little big so we uoload it subsection, you should download all the subsections and put it in the same disk 
+And then to decompress one of it it will form a final image "student.tar" which is our group final image.
+Start the docker and find the "student.tar"disk, and enter "docker load --input student.tar" to input the image 
+Then enter "docker run -d -p 80:80  student:latest" to run the container, enter" docker ps " to check the container 
+Finally find your localhost Ip or virtual Ip access our group website.
